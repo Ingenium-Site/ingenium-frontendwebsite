@@ -39,3 +39,11 @@ Thumbs.db
 # Package managers
 package-lock.json
 yarn.lock
+
+node_modules/
+**/node_modules/
+dist/
+build/
+.nyc_output/
+coverage/
+.nyc_output/
