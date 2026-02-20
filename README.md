@@ -58,3 +58,4 @@ Replace any placeholder JPGs with your real photography, keeping the same filena
 - Motion is intentionally restrained to match the brief.
 - The consultation form currently just shows a “Request received” state — wire it to your backend/CRM later.
 
+# ingenium-frontendwebsite
