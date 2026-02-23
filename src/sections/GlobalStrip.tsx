@@ -1,21 +1,34 @@
 import React, { useState, useEffect, useRef } from 'react'
 import Container from '../components/Container'
 import { Reveal, Stagger, Item } from '../components/Effects'
+import logo1 from '../assets/logo1.png'
+import logo2 from '../assets/logo2.png'
+import logo3 from '../assets/logo3.png'
+import logo4 from '../assets/logo4.png'
+import logo5 from '../assets/logo5.png'
+import logo6 from '../assets/logo6.png'
+import logo7 from '../assets/logo7.png'
+import logo8 from '../assets/logo8.png'
+import logo9 from '../assets/logo9.jpg'
+import logo10 from '../assets/logo10.jpg'
+import logo11 from '../assets/logo11.jpg'
+import logo12 from '../assets/logo12.jpg'
 
 const logos = [
-  { src: 'src/assets/logo1.png' },
-  { src: 'src/assets/logo2.png' },
-  { src: 'src/assets/logo3.png' },
-  { src: 'src/assets/logo4.png' },
-  { src: 'src/assets/logo5.png' },
-  { src: 'src/assets/logo6.png' },
-  { src: 'src/assets/logo7.png' },
-  { src: 'src/assets/logo8.png' },
-  { src: 'src/assets/logo9.jpg' },
-  { src: 'src/assets/logo10.jpg' },
-  { src: 'src/assets/logo11.jpg' },
-  { src: 'src/assets/logo12.jpg' },
+  { src: logo1 },
+  { src: logo2 },
+  { src: logo3 },
+  { src: logo4 },
+  { src: logo5 },
+  { src: logo6 },
+  { src: logo7 },
+  { src: logo8 },
+  { src: logo9 },
+  { src: logo10 },
+  { src: logo11 },
+  { src: logo12 },
 ]
+
 
 export default function GlobalStrip() {
   const containerRef = useRef<HTMLDivElement>(null)
