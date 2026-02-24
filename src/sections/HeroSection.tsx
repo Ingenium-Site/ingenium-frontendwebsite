@@ -10,8 +10,8 @@ import HeroFlowmap from '../components/HeroFlowmap'
 
 import bannerBg from '../assets/seo7/banner-one-bg.png'
 import heroImg from '../assets/seo7/banner-one-img.png'
-import element1 from '../assets/seo7/banner-one-element1.jpg'
-import element2 from '../assets/seo7/banner-one-element2.jpg'
+import element1 from '../assets/seo7/banner-one-element1.png'
+import element2 from '../assets/seo7/banner-one-element2.png'
 import rotateText from '../assets/seo7/totate-text.png'
 
 function Floating({
@@ -118,7 +118,7 @@ export default function HeroSection({ onInitiate }: { onInitiate: () => void }) 
               <Floating className="absolute left-[-10px] top-1/2 -translate-y-1/2" delay={0.35} amplitude={14} duration={7.2}>
                 <img src={element1} alt="Element" className="w-[220px] select-none" draggable={false} />
               </Floating>
-              <Floating className="absolute bottom-[-10px] right-[-10px]" delay={0.45} amplitude={10} duration={5.8}>
+              <Floating className="absolute bottom-[-125px] right-[-130px]" delay={0.45} amplitude={20} duration={5.8}>
                 <img src={element2} alt="Element" className="w-[220px] select-none" draggable={false} />
               </Floating>
 

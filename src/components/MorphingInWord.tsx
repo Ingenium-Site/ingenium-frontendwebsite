@@ -26,9 +26,8 @@ export default function MorphingInWord({
   return (
     <span className={className} aria-label={`In ${word}`}>
       <span className="inline-block font-semibold text-white">In</span>
-      <span className="inline-block w-[0.2ch]" />
-      <span className="relative inline-block align-baseline" style={{ minWidth: `${maxChars + 0.8}ch` }}>
-        <AnimatePresence mode="wait" initial={false}>
+<span className="inline-block w-[0.05ch]" /> {/* Reduced from 0.2ch to 0.05ch */}
+<span className="relative inline-block align-baseline" style={{ minWidth: `${maxChars + 0.8}ch` }}>        <AnimatePresence mode="wait" initial={false}>
           <motion.span
             key={`${word}-${i}`}
             className="inline-block whitespace-nowrap text-seoAccent-600"
